@@ -1,6 +1,6 @@
 def study_schedule(permanence_period, target_time):
     best_time = 0
-    
+
     try:
         for period in permanence_period:
             start, end = period
